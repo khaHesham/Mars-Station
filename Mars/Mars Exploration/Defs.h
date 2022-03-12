@@ -1,0 +1,28 @@
+#pragma once
+
+enum TYPE
+{
+	EMERGENCY,
+	MOUNTAINOUS,
+	POLAR
+};
+
+enum MODE
+{
+	INTERACTIVE,
+	STEP_BY_STEP,
+	SILENT
+};
+
+enum MLocation
+{
+	WAITING_LIST,
+	IN_EXECUTION_LIST
+};
+
+enum RLocation
+{
+	WAITING_ROVERS,
+	IN_EXECUTION_ROVERS
+
+};
